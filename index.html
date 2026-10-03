@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Ruthtatia Grace Astridia</title>
+  
+  <!-- Font Google (Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Custom CSS Terpisah -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-3 navbar-custom">
+    <div class="container">
+      
+      <!-- TOMBOL TOGGLER (Untuk Tampilan Mobile) -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- MENU NAVIGASI (mx-auto agar posisinya persis di tengah) -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto gap-3 text-center mt-3 mt-lg-0">
+          <li class="nav-item"><a class="nav-link text-white-50" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white-50" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link text-white-50" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link text-white-50" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link text-white-50" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link text-white-50" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-glass-card">
+        <div class="row align-items-center g-4">
+          
+          <!-- KOLOM KIRI: HEADLINE & STATUS TAGS -->
+          <div class="col-lg-7 text-center text-lg-start">
+
+          <!-- WELCOME TITLE (Dibuat Elegan Sebagai Sub-Header Atas) -->
+          <small class="text-danger fw-bold tracking-wider text-uppercase d-block mb-2" style="font-size: 0.85rem; letter-spacing: 1.5px;">
+            <span class="status-dot-green d-inline-block me-1"></span> WELCOME TO MY PORTFOLIO
+          </small>
+
+          <!-- NAMA BESAR -->
+          <h1 class="fw-bold text-white mb-2" style="font-size: 2.6rem; line-height: 1.2;">
+            Ruthtatia Grace Astridia
+          </h1>
+
+          <!-- SUB-TITLE TEXT ONLY -->
+          <p class="mb-3" style="font-size: 1.05rem;">
+            <strong style="color: #34d399; font-weight: 600;">Mahasiswi Sains Data</strong>
+            <span class="text-white-50 mx-2">•</span>
+            <span class="text-white-50">Universitas Negeri Surabaya</span>
+        </p>
+          
+          <!-- DESKRIPSI SKILL & MATA KULIAH -->
+          <p class="text-white-50 fs-6 mb-4" style="line-height: 1.6;">
+            Mahasiswi Semester 5 yang mendalami <strong class="text-white">Machine Learning, Database, Statistika,</strong> dan <strong class="text-white">Visualisasi Data</strong>, serta aktif dalam Studi Independen <strong class="text-white">UI/UX Design & Web Development</strong>.
+          </p>
+
+            <!-- LIVE STATUS ACTION BUTTONS -->
+            <div>
+              <small class="text-white-50 fw-bold tracking-wider text-uppercase d-block mb-2 fs-7" style="font-size: 0.75rem; letter-spacing: 1px;">QUICK LINKS</small>
+              <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start">
+                <a href="#about" class="tech-btn-tag">
+                  <i class="bi bi-person-fill text-info"></i> PROFILE
+                </a>
+                <a href="#projects" class="tech-btn-tag">
+                  <i class="bi bi-code-slash text-danger"></i> CODE
+                </a>
+                <a href="https://github.com/Tatya17" target="_blank" class="tech-btn-tag">
+                  <i class="bi bi-github"></i> GITHUB
+                </a>
+                <!-- Link LinkedIn Kamu -->
+                <a href="https://www.linkedin.com/in/ruthtatia-grace-954348372" target="_blank" class="tech-btn-tag">
+                   <i class="bi bi-linkedin me-2"></i> LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- KOLOM KANAN: KARTU FOTO & FAST CONTACT (INFO TIDAK DOBEL) -->
+          <div class="col-lg-5 text-center">
+            <div class="core-ui-card p-3">
+              
+              <!-- TOP HEADER (Header Rapi Tanpa Kotak Hijau Aneh) -->
+              <div class="d-flex justify-content-between align-items-center mb-3 px-1">
+                <span class="fw-bold text-white-50" style="font-size: 0.75rem; letter-spacing: 1px;">PROFILE PICTURE</span>
+                <span class="text-white-50" style="font-size: 0.75rem;"><i class="bi bi-geo-alt-fill text-danger me-1"></i>Surabaya, ID</span>
+              </div>
+
+              <!-- FOTO PROFIL -->
+              <div class="position-relative d-inline-block w-100 mb-3">
+                <img src="FotoTatya.jpg" alt="Ruthtatia Grace Astridia" class="img-fluid rounded-4 shadow-lg border border-white border-opacity-10" style="max-height: 310px; width: 100%; object-fit: cover; object-position: center 85%;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- SECTION TENTANG -->
+  <section id="about" class="py-5 section-dark">
+    <div class="container py-4">
+      <div class="row align-items-center">
+        <div class="col-lg-8 mx-auto text-center">
+          
+          <!-- ABOUT ME DIJADIKAN JUDUL UTAMA (TANPA SUB-HEADER) -->
+          <h6 class="text-warning text-uppercase fw-bold tracking-wide mb-4" style="font-size: 1.75rem; letter-spacing: 2px;">
+            About Me
+          </h6>
+        </div>
+        
+      <!-- KOTAK KARTU ABOUT ME (Sama Seperti Organization & Event) -->
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card card-royal p-4 p-md-5 text-white shadow-lg">
+            <p class="text-white-50 leading-relaxed fs-6 m-0 text-center text-md-start" style="line-height: 1.8;">
+              Sebagai mahasiswi Sains Data, saya terbiasa mengolah dan menganalisis data menggunakan <strong class="text-white">Python, R, dan PostgreSQL</strong>, serta memvisualisasikannya menjadi wawasan yang mudah dipahami. Berbekal pemikiran analitis tersebut, saya mendalami <strong class="text-white">UI/UX Design (Figma)</strong> dan <strong class="text-white">Web Development</strong> untuk menyatukan dua dunia: logika data yang presisi dan estetika antarmuka web. Tujuan saya adalah membangun aplikasi web yang tidak hanya estetik secara visual, tetapi juga intuitif, terstruktur, dan didasari oleh kebutuhan pengguna.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCES / KEPANITIAAN SECTION -->
+  <section id="experience" class="py-5">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+          <h6 class="text-warning text-uppercase fw-bold tracking-wide mb-4" style="font-size: 1.75rem; letter-spacing: 2px;">
+            Organization & Event
+          </h6>
+      </div>
+      
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-5">
+          <div class="card card-royal h-100 p-4 text-white">
+            <div class="d-flex align-items-center mb-3">
+              <div class="fs-2 text-warning me-3"><i class="bi bi-people-fill"></i></div>
+              <div>
+                <h5 class="fw-bold m-0">RELOUD</h5>
+                <small class="text-white-50">PKKMB Sains Data UNESA</small>
+              </div>
+            </div>
+            <p class="text-white-50 small m-0">
+              Bertanggung jawab sebagai Fasilitator pendamping mahasiswa baru dan penyambung informasi dari panitia. Pengalaman ini mengasah skill saya dalam membangun relasi, mendengarkan secara empati, serta serta meminimalisir risiko miskomunikasi dalam penyampaian informasi.
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-5">
+          <div class="card card-royal h-100 p-4 text-white">
+            <div class="d-flex align-items-center mb-3">
+              <div class="fs-2 text-info me-3"><i class="bi bi-award-fill"></i></div>
+              <div>
+                <h5 class="fw-bold m-0">ORIGAMIPA</h5>
+                <small class="text-white-50">PKKMB FMIPA UNESA</small>
+              </div>
+            </div>
+            <p class="text-white-50 small m-0">
+              Mengambil bagian dalam kepanitiaan tingkat fakultas (FMIPA UNESA). Bertugas memastikan keselamatan dan kondisi fisik peserta selama rangkaian acara pengenalan kampus. Berperan aktif dalam penanganan medis pertama, koordinasi tim medis, serta respon cepat terhadap situasi darurat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION SKILLS -->
+  <section id="skills" class="py-5 section-dark">
+    <div class="container py-5">
+      
+      <!-- JUDUL UTAMA -->
+      <div class="text-center mb-5">
+        <h2 class="text-warning text-uppercase fw-bold tracking-wide" style="font-size: 1.75rem; letter-spacing: 2px;">
+          Skills
+        </h2>
+      </div>
+
+      <div class="row g-4">
+        
+        <!-- KARTU 1: DATA SCIENCE & ANALYTICS -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-royal h-100 p-4 text-white">
+            <div class="d-flex align-items-center mb-3">
+              <div class="fs-2 text-warning me-3"><i class="bi bi-bar-chart-line-fill"></i></div>
+              <h5 class="fw-bold m-0">Data Science & Analytics</h5>
+            </div>
+            <p class="text-white-50 small mb-3">
+              Pemrosesan data, pemodelan statistik, pengolahan database, hingga visualisasi data interaktif.
+            </p>
+            <!-- TECH STACK TAGS -->
+            <div class="d-flex flex-wrap gap-2 mt-auto">
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">Python</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">R & RShiny</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">PostgreSQL</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">Tableau</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">Looker Studio</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">Data Warehouse</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- KARTU 2: UI/UX DESIGN & TOOLS -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-royal h-100 p-4 text-white">
+            <div class="d-flex align-items-center mb-3">
+              <div class="fs-2 text-warning me-3"><i class="bi bi-palette-fill"></i></div>
+              <h5 class="fw-bold m-0">UI/UX & Workflow Tools</h5>
+            </div>
+            <p class="text-white-50 small mb-3">
+              Perancangan wireframe, prototipe interaktif, desain antarmuka, dan pengelolaan environment kerja.
+            </p>
+            <!-- TECH STACK TAGS -->
+            <div class="d-flex flex-wrap gap-2 mt-auto">
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">Figma</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">Docker</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">VS Code</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">Google Colab</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">Git & GitHub</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- KARTU 3: WEB DEVELOPMENT -->
+        <div class="col-lg-4 col-md-12">
+          <div class="card card-royal h-100 p-4 text-white">
+            <div class="d-flex align-items-center mb-3">
+              <div class="fs-2 text-warning me-3"><i class="bi bi-code-slash"></i></div>
+              <h5 class="fw-bold m-0">Web Development</h5>
+            </div>
+            <p class="text-white-50 small mb-3">
+              Pembangunan antarmuka web yang responsif, rapi, dan terintegrasi dengan kebutuhan front-end.
+            </p>
+            <!-- TECH STACK TAGS -->
+            <div class="d-flex flex-wrap gap-2 mt-auto">
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">HTML5</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">CSS</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">Bootstrap</span>
+              <span class="badge bg-secondary bg-opacity-25 border border-secondary text-white-50 fw-normal">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION CERTIFICATIONS -->
+  <section id="certificates" class="py-5" style="background-color: #0b1120;">
+    <div class="container py-4">
+      
+      <!-- HEADER: CERTIFICATIONS -->
+      <div class="text-center mb-5">
+        <h2 class="text-warning text-uppercase fw-bold tracking-wide" style="font-size: 1.75rem; letter-spacing: 2px;">
+          Certifications
+        </h2>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- 1. REVOU MINI COURSE -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-royal h-100 p-4 text-white">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <i class="bi bi-patch-check-fill text-warning fs-3"></i>
+            </div>
+            <h5 class="fw-bold mb-1">Intro to Data Analytics</h5>
+            <small class="text-warning d-block mb-3">RevoU Mini Course</small>
+            <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top border-white border-opacity-10">
+              <small class="text-white-50">Issued: 2026</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. GOOGLE FOR EDUCATION GEMINI -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-royal h-100 p-4 text-white">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <i class="bi bi-patch-check-fill text-warning fs-3"></i>
+            </div>
+            <h5 class="fw-bold mb-1">Google Gemini Certification</h5>
+            <small class="text-warning d-block mb-3">Google for Education</small>
+            <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top border-white border-opacity-10">
+              <small class="text-white-50">Issued: 2026</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. RELOUD 2025 (FACILITATOR) -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-royal h-100 p-4 text-white">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <i class="bi bi-award-fill text-warning fs-3"></i>
+            </div>
+            <h5 class="fw-bold mb-1">Facilitator Committee</h5>
+            <small class="text-warning d-block mb-3">RELOUD PKKMB Data Science UNESA</small>
+            <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top border-white border-opacity-10">
+              <small class="text-white-50">Issued: 2025</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. ORIGAMIPA 2025 (HEALTH OFFICER) -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-royal h-100 p-4 text-white">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <i class="bi bi-award-fill text-warning fs-3"></i>
+            </div>
+            <h5 class="fw-bold mb-1">Health Officer Committee</h5>
+            <small class="text-warning d-block mb-3">ORIGAMIPA PKKMB FMIPA UNESA</small>
+            <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top border-white border-opacity-10">
+              <small class="text-white-50">Issued: 2025</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. RELOUD INAUGURATION 2024 (HEALTH OFFICER) -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-royal h-100 p-4 text-white">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <i class="bi bi-award-fill text-warning fs-3"></i>
+            </div>
+            <h5 class="fw-bold mb-1">Inauguration Health Officer</h5>
+            <small class="text-warning d-block mb-3">RELOUD Inauguration PKKMB Data Science</small>
+            <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top border-white border-opacity-10">
+              <small class="text-white-50">Issued: 2024</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SHOWCASE SECTION -->
+  <section id="projects" class="py-5 section-dark">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 class="text-warning text-uppercase fw-bold">Projects Portofolio</h2>
+      </div>
+
+      <div class="row g-4">
+        
+        <!-- PROYEK 1: UI/UX (DONATION APP) -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-royal h-100 text-white overflow-hidden">
+            <div class="card-body d-flex flex-column p-4">
+              <span class="badge badge-uiux mb-2 align-self-start px-3 py-2">UI/UX Design</span>
+              <h4 class="card-title fw-bold fs-5 mt-1">DoNation - Mobile Donation App</h4>
+              <p class="card-text text-white-50 small mb-3">
+                Proyek mata kuliah Interaksi Manusia & Komputer. Merancang antarmuka aplikasi donasi seluler dan prototipe interaktif di Figma.
+              </p>
+              
+              <div class="mt-auto pt-3 border-top border-secondary border-opacity-25">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <span class="badge bg-dark text-light border border-secondary">Figma</span>
+                    <span class="badge bg-dark text-light border border-secondary">Prototype</span>
+                  </div>
+                  <a href="https://www.figma.com/proto/PVnCM6RUUeaDEjQzXm1LSA?node-id=0-1&t=GtqUuuAKUSsQSusW-6" target="_blank" class="btn btn-sm btn-outline-warning rounded-pill">
+                    <i class="bi bi-figma me-1"></i> Figma Link
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROYEK: MACHINE LEARNING STACKING CLASSIFIER -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-royal h-100 text-white overflow-hidden">
+            <div class="card-body d-flex flex-column p-4">
+              
+              <span class="badge bg-secondary mb-2 align-self-start px-3 py-2">Machine Learning</span>
+              
+              <h4 class="card-title fw-bold fs-5 mt-1">RF-MLP Stacking Classifier Model</h4>
+              <p class="card-text text-white-50 small mb-4">
+                Pengembangan model klasifikasi tingkat lanjut menggunakan teknik <em>Stacking Ensemble</em>. Menggabungkan algoritma Random Forest dan Multi-Layer Perceptron (MLP) untuk meningkatkan akurasi serta performa prediksi.
+              </p>
+              
+              <div class="mt-auto pt-3 border-top border-secondary border-opacity-25">
+                <div class="d-flex justify-content-between align-items-center">
+                  
+                  <!-- TECH TAGS -->
+                  <div class="d-flex flex-wrap gap-1">
+                    <span class="badge bg-dark text-light border border-secondary">Python</span>
+                    <span class="badge bg-dark text-light border border-secondary">Scikit-Learn</span>
+                  </div>
+
+                  <!-- TOMBOL LINK OUTLINE KUNING (PERSIS GAMBAR) -->
+                  <a href="https://github.com/Tatya17/rf-mlp-stacking-classifier" target="_blank" class="btn btn-outline-warning btn-sm rounded-pill px-3 fw-medium text-decoration-none" style="border-color: #ffc107; color: #ffc107; font-size: 0.8rem;">
+                    GitHub Link
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- PROYEK 3: DOCKER DATA WAREHOUSE -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-royal h-100 text-white overflow-hidden">
+            <div class="card-body d-flex flex-column p-4">
+              
+              <span class="badge bg-secondary mb-2 align-self-start px-3 py-2">Data Engineering & System</span>
+              
+              <h4 class="card-title fw-bold fs-5 mt-1">Containerized OLAP Data Warehouse Environment</h4>
+              <p class="card-text text-white-50 small mb-4">
+                Perancangan lingkungan analisis data terisolasi menggunakan Docker Compose. Mengintegrasikan PostgreSQL untuk basis data relasional dan DuckDB untuk pemrosesan query OLAP berkecepatan tinggi, lengkap dengan optimasi alokasi memori dan CPU sistem.
+              </p>
+              
+              <div class="mt-auto pt-3 border-top border-secondary border-opacity-25">
+                <div class="d-flex justify-content-between align-items-center">
+                  
+                  <!-- TECH TAGS -->
+                  <div class="d-flex flex-wrap gap-1">
+                    <span class="badge bg-dark text-light border border-secondary">Docker</span>
+                    <span class="badge bg-dark text-light border border-secondary">PostgreSQL</span>
+                    <span class="badge bg-dark text-light border border-secondary">DuckDB</span>
+                  </div>
+
+                  <!-- TOMBOL LINK OUTLINE KUNING -->
+                  <a href="https://github.com/Tatya17/AKSO" target="_blank" class="btn btn-outline-warning btn-sm rounded-pill px-3 fw-medium text-decoration-none" style="border-color: #ffc107; color: #ffc107; font-size: 0.8rem;">
+                    GitHub Link
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION CONTACT / FOOTER -->
+  <footer id="contact" class="py-5 section-dark border-top border-white border-opacity-10">
+    <div class="container text-center py-4">
+      
+      <!-- JUDUL UTAMA -->
+      <h2 class="fw-bold text-white mb-3" style="font-size: 2rem;">
+        Mari Terhubung
+      </h2>
+
+      <!-- KALIMAT AJAKAN MENARIK -->
+      <p class="text-white-50 mx-auto mb-4 fs-6" style="max-width: 580px; line-height: 1.6;">
+        Punya ide proyek, peluang kolaborasi, atau sekadar ingin berdiskusi? Mari terhubung dengan saya
+
+      <!-- BUTTONS -->
+      <div class="d-flex justify-content-center gap-3 mb-5 flex-wrap align-items-center">
+        <!-- EMAIL BUTTON -->
+        <a href="mailto:tatyasimson17@gmail.com" class="btn rounded-pill px-4 py-2 text-white fw-medium shadow-sm" style="background-color: var(--accent-pink, #e11d48); border: none;">
+          <i class="bi bi-envelope-fill me-2"></i> tatyasimson17@gmail.com
+        </a>
+
+        <!-- LINKEDIN QUICK LINK -->
+        <a href="https://www.linkedin.com/in/ruthtatia-grace-954348372" target="_blank" class="tech-btn-tag">
+          <i class="bi bi-linkedin"></i> LINKEDIN
+        </a>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <small class="text-white-50 d-block pt-3 border-top border-white border-opacity-10" style="font-size: 0.85rem;">
+        © 2026 Ruthtatia Grace Astridia. All rights reserved.
+      </small>
+
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
